@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# MATLAB local/autosave files
+*.asv
+*.m~
+
+# Local generated plots and exports
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*_carrier_phase.csv
+*_orientation.csv
+*_carrier_phase_raw_wide.csv
+*_carrier_phase_rolling_mean.csv
+*_carrier_phase_detrended.csv
